@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color: #ff7613;
+    --text-color: #727171;
+}
+html{
+    font-size: 10px;
+}
+body{
+    font-family: sans-serif;
+    background-color: #28231D;
+    color: white;
+}
+
+
+a{
+    text-decoration: none;
+    color: #881EE4;
+}
+
+img{
+    width:100%;
+}
+.description{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--text-color);
+}
+.title{
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+.group1{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+.group2{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+ 
+ 
+.item_preTitle{
+    font-size: 1.4rem;
+    color: var(--text-color);
+    font-weight: 300;
+}
+.item_title{
+    font-size: 1.6rem;
+    color: white;
+    font-weight: 500;
+    margin: 0.8rem 0;
+}
+.item_subtitle{
+    font-size: 1.4rem;
+    color: var(--text-color);
+    font-weight: 400;
+}
+
+
+.container{
+    max-width: 1000px;
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    padding: 5rem;
+    background: black;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+}
+
+.profile{
+    grid-column: 1/ -1;
+    margin-bottom: 2rem;
+}
+.profile_firstname{
+    color:var(--primary-color);
+    font-weight: 700;
+    text-transform: uppercase;
+    display: block;
+    
+}
+
+.profile_lastname{
+    color: white;
+    font-weight: 200;
+    text-transform: uppercase;
+    display: block;
+
+}
+
+.profile_cont{
+    display: flex;
+    gap: 2rem;
+}
+.profile_proimg{
+    max-width: 250px;
+}
+.profile_title{
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.downloadbtn{
+    display: block;
+    text-decoration: underline;
+    font-size: 1.6rem;
+    margin-top: 1rem;
+}
+.downloadbtn:hover{
+    color: var(--primary-color);
+}
+
+
+.skill_list{
+    margin-top: 1rem;
+    margin-left: 2rem;
+    line-height: 2;
+}
+
+.edu_item{
+    margin-top: 2rem;
+}
